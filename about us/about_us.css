@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    background-image: url("./10_FEB_9.jpg");
+    background-repeat:repeat-y;
+    background-size:100% 100%;
+}
+.main_page{
+    height: auto;
+    width: 100vw;
+}
+/* ############################################################### */
+.sec{
+    margin-top:50px;
+    height: auto;
+    width: 100vw;
+    /* background-color:yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec_card{
+    height:50vh;
+    width: 300px;
+    /* background-color:tomato; */
+    position: relative;
+}
+.details{ 
+    
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    height:35%;
+    background-color:rgba(255, 255, 255, 0.404);
+}
+.te-photos{
+    position: absolute;
+    top:0%;
+    background-color:green;
+    height:75%;
+    border-radius:50%;
+    box-shadow:0px 0px 10px white ;
+    width: 100%;
+    z-index: 10;
+}
+.te-photos:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
+
+/* ############################################ */
+
+.jt-sec{
+    margin-top:50px;
+    height: 70vh;
+    width: 100vw;
+    margin-bottom: 50px;
+    /* background-color:yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+
+.jt-sec_card{
+    height:100%;
+    width: 330px;
+    /* background-color:rgba(255, 99, 71, 0.411); */
+    position: relative;
+}
+.jt-details{ 
+    
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    height:35%;
+    /* background-color:none; */
+}
+.se-photos{
+    position: absolute;
+    top:0%;
+    /* background-color:green; */
+    height:65%;
+    border-radius:10%;
+    box-shadow:0px 0px 10px white ;
+    width: 100%;
+    z-index: 10;
+}
+.se-photos:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
