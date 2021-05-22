@@ -252,7 +252,7 @@ document.getElementById("check").addEventListener("click",function(){
 document.getElementById("d_card8").addEventListener("mouseover", function() {
     document.getElementById("v_card").style.display='inline-block';
       var elem = document.createElement("img");
-      elem.src='Finearts/images/Art_work/1a.JPG';
+      elem.src='./images/Art_work/1a.JPG';
       elem.setAttribute("alt", "Flower");
       elem.setAttribute("height", "100%");
       elem.setAttribute("id", "img8");
@@ -269,7 +269,7 @@ document.getElementById("d_card8").addEventListener("mouseout", function() {
 document.getElementById("d_card7").addEventListener("mouseover", function() {
     document.getElementById("v_card").style.display='inline-block';
     var elem = document.createElement("img");
-    elem.src='Finearts/images/Art_work/2a.JPG';
+    elem.src='./images/Art_work/2a.JPG';
     elem.setAttribute("alt", "Flower");
     elem.setAttribute("id", "img7");
     // elem.style.paddingTop="0px";
@@ -283,7 +283,7 @@ document.getElementById("d_card7").addEventListener("mouseout", function() {
 document.getElementById("d_card6").addEventListener("mouseover", function() {
     document.getElementById("v_card").style.display='inline-block';
     var elem = document.createElement("img");
-    elem.src='Finearts/images/Art_work/3a.JPG';
+    elem.src='./images/Art_work/3a.JPG';
     elem.setAttribute("alt", "Flower");
     elem.setAttribute("id", "img6");
     document.getElementById("v_card").appendChild(elem);
@@ -296,7 +296,7 @@ document.getElementById("d_card6").addEventListener("mouseout", function() {
 document.getElementById("d_card5").addEventListener("mouseover", function() {
     document.getElementById("v_card").style.display='inline-block';
     var elem = document.createElement("img");
-    elem.src='Finearts/images/Art_work/4a.jpg';
+    elem.src='./images/Art_work/4a.jpg';
     elem.setAttribute("alt", "Flower");
     elem.setAttribute("id", "img5");
     document.getElementById("v_card").appendChild(elem);
@@ -310,7 +310,7 @@ document.getElementById("d_card5").addEventListener("mouseout", function() {
 document.getElementById("d_card4").addEventListener("mouseover", function() {
     document.getElementById("v_card").style.display='inline-block';
     var elem = document.createElement("img");
-    elem.src='Finearts/images/Art_work/5a.JPG';
+    elem.src='./images/Art_work/5a.JPG';
     elem.setAttribute("alt", "Flower");
     elem.setAttribute("id", "img4");
     document.getElementById("v_card").appendChild(elem)
@@ -323,7 +323,7 @@ document.getElementById("d_card4").addEventListener("mouseout", function() {
 document.getElementById("d_card3").addEventListener("mouseover", function() {
     document.getElementById("v_card").style.display='inline-block';
     var elem = document.createElement("img");
-    elem.src='Finearts/images/Art_work/6a.jpeg';
+    elem.src='./images/Art_work/6a.jpeg';
     elem.setAttribute("alt", "Flower");
     elem.setAttribute("id", "img3");
     document.getElementById("v_card").appendChild(elem)
@@ -336,7 +336,7 @@ document.getElementById("d_card3").addEventListener("mouseout", function() {
 document.getElementById("d_card2").addEventListener("mouseover", function() {
     document.getElementById("v_card").style.display='inline-block';
     var elem = document.createElement("img");
-    elem.src='Finearts/images/Art_work/7a.jpg';
+    elem.src='./images/Art_work/7a.jpg';
     elem.setAttribute("alt", "Flower");
     elem.setAttribute("id", "img2");
     document.getElementById("v_card").appendChild(elem)
@@ -349,7 +349,7 @@ document.getElementById("d_card2").addEventListener("mouseout", function() {
 document.getElementById("d_card1").addEventListener("mouseover", function() {
     document.getElementById("v_card").style.display='inline-block';
     var elem = document.createElement("img");
-    elem.src='Finearts/images/Art_work/8a.jpg';
+    elem.src='./images/Art_work/8a.jpg';
     elem.setAttribute("alt", "Flower");
     elem.setAttribute("id", "img1");
     document.getElementById("v_card").appendChild(elem)
