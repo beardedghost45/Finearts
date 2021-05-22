@@ -252,7 +252,7 @@ document.getElementById("check").addEventListener("click",function(){
 document.getElementById("d_card8").addEventListener("mouseover", function() {
     document.getElementById("v_card").style.display='inline-block';
       var elem = document.createElement("img");
-      elem.src='./clg wala art/birme-1200x1200/Himani Singh 6.jpg';
+      elem.src='./clg wala art/birme-1200x1200/Himani Singh 6.JPG';
       elem.setAttribute("alt", "Flower");
       elem.setAttribute("height", "100%");
       elem.setAttribute("id", "img8");
